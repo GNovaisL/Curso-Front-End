@@ -1,0 +1,43 @@
+:root{
+    --color-primary: #0F0FFF;
+    --color-secondary: #5656ff;
+    padding: 20px;
+}
+
+h1{
+    color: var(--color-primary);
+}
+
+h2{
+    color: var(--color-secondary);
+}
+
+a {
+    color: #0D0D0D;
+    text-decoration: none;
+}
+
+#input{
+    border: none;
+    border-bottom: 2px solid #525252;
+    transition: all 0.2s ease-in;
+    outline: none;
+}
+
+#input:focus {
+    border-radius: 4px;
+    padding: 4px;
+    border: 2px solid #525252;
+}
+
+a:visited{
+    color: #0D0D0D;
+}
+
+.nav-items:not(.selecionado){
+    color: rgb(164, 164, 164);
+}
+
+button:disabled{
+    cursor: not-allowed;
+}
